@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+background: url(../images/youando.jpg);
+background-size: cover ;
+background-position: center;
+background-repeat: no-repeat;
+color: white;
+
+}
+nav{
+    background-color: rgb(191, 182, 201);
+    width: 100%;
+
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.lista a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 50px;
+}
+.menu .lista{
+    display: inline-block;
+}
+
+.lista-r{
+    float: right;
+}
+
+.lista a:hover{
+    background-color: rgb(191, 162, 218);
+}
+
+main{
+    text-align: center;
+}
+
+img{
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+     border: 10px solid white;
+}
